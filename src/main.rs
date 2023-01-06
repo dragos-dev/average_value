@@ -11,5 +11,10 @@ fn main() {
         *input_map.entry(*i).or_insert(0) += 1;
     }
 
+    for (_, value) in input_map.iter() {
+        if *value > max {
+            max = *value;
+        }
+    }
 
 }
