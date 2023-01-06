@@ -19,4 +19,6 @@ fn main() {
 
     let average_number = sum_of_values / &input_vec.len();
 
+    println!("Average of values: {}", average_number);
+    println!("Maximum value: {}", max);
 }
