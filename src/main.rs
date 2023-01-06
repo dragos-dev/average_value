@@ -17,4 +17,6 @@ fn main() {
         }
     }
 
+    let average_number = sum_of_values / &input_vec.len();
+
 }
