@@ -1,3 +1,6 @@
+use std::collections::HashMap;
+
 fn main() {
-    println!("Hello, world!");
+    let input_vec: Vec<usize> = vec![10, 20, 30, 40, 50, 50];
+
 }
